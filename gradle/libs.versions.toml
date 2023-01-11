@@ -9,3 +9,4 @@ snakeyaml = "org.yaml:snakeyaml:1.27"
 netty-all = { group = "io.netty", name="netty-all", version.ref="nettyVer" }
 netty-handler = { group = "io.netty", name="netty-handler", version.ref="nettyVer" }
 gson = "com.google.code.gson:gson:2.8.1"
+junit = "junit:junit:4.13"

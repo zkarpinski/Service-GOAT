@@ -2,6 +2,8 @@
 .gradle
 **/build/
 !src/**/build/
+**/bin/
 
 
 .dccache
+.idea/uiDesigner.xml
