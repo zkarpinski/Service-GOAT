@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     environment: Base
     steps:
+    - name: Use variables
+      run: |
+        echo "The environment is: ${{ vars.ENV_NAME }}"
     - uses: actions/checkout@v3
     - name: Make gradlew executable
       run: chmod +x ./gradlew
@@ -33,22 +36,8 @@ jobs:
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
         arguments: build
-    - name: Set up Node 14
-      uses: actions/setup-node@v3
-      with:
-        node-version: 14
-    - name: install Snyk CLI
-      run: npm install -g snyk
-    - name: run Snyk auth
-      run: snyk auth
-      env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-    - name: run Snyk Open Source Test
-      run: snyk test
-      env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-    - name: run Snyk Code Test
-      run: snyk code test
+    - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/gradle-jdk11@master
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       
