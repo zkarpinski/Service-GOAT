@@ -1,0 +1,3 @@
+rootProject.name = "Service GOAT"
+include "subOne"
+include "subTwo"
