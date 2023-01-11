@@ -1,8 +1,9 @@
 rootProject.name = "Service GOAT"
 include "subOne"
 include "subTwo"
+include "subThreeTOML"
 
 
 dependencyResolutionManagement {
-    defaultLibrariesExtensionName.set('projectLibs')
+    defaultLibrariesExtensionName.set('libs')
 }

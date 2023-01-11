@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    api platform(project(':platform'))
-    implementation("org.yaml:snakeyaml:1.26")
-
+    implementation("org.yaml:snakeyaml")
+    implementation libs.gson
+    implementation libs.netty.all
 }

@@ -1,3 +1,16 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
 plugins {
     id('base')
+}
+
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
 }
