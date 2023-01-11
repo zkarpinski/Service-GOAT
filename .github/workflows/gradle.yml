@@ -18,9 +18,8 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
+    environment: Base
     steps:
     - uses: actions/checkout@v3
     - name: Make gradlew executable
