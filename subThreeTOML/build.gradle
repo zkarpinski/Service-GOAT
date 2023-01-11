@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    api platform(project(':platform'))
+    implementation("org.yaml:snakeyaml:1.26")
+
+}
