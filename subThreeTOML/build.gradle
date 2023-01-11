@@ -2,8 +2,16 @@ plugins {
     id 'java'
 }
 
+jar {
+    manifest {
+        attributes(
+            'Main-Class':'com.zacharykarpinski.myapp.main'
+        )
+    }
+}
+
 dependencies {
-    implementation("org.yaml:snakeyaml")
+    implementation "org.yaml:snakeyaml:1.27"
     implementation libs.gson
     implementation libs.netty.all
 }
