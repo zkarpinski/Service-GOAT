@@ -1,9 +1,13 @@
-rootProject.name = "Service GOAT"
-include "subOne"
-include "subTwo"
-include "subThreeTOML"
+
+
 
 
 dependencyResolutionManagement {
     defaultLibrariesExtensionName.set('libs')
 }
+
+
+include "basic"
+include "demo-vc"
+include 'demo-kotlin'
+rootProject.name = "Service GOAT"
