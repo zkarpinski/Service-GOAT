@@ -10,4 +10,7 @@ dependencyResolutionManagement {
 include "basic"
 include "demo-vc"
 include 'demo-kotlin'
+include 'service-goat'
 rootProject.name = "Service GOAT"
+
+
