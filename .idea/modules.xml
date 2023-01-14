@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-service.iml" filepath="$PROJECT_DIR$/ui-service.iml" />
     </modules>
   </component>
 </project>

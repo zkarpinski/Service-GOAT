@@ -13,4 +13,10 @@ class MyController {
     fun index(): String {
         return "Hello World"
     }
+
+    @Get("/info")
+    @Produces(MediaType.TEXT_PLAIN)
+    fun info(): String {
+        return "Created by: Zachary Karpinski"
+    }
 }

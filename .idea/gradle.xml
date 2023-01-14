@@ -11,9 +11,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/basic" />
+            <option value="$PROJECT_DIR$/ai-service" />
             <option value="$PROJECT_DIR$/demo-kotlin" />
             <option value="$PROJECT_DIR$/demo-vc" />
+            <option value="$PROJECT_DIR$/search-service" />
             <option value="$PROJECT_DIR$/service-goat" />
           </set>
         </option>
