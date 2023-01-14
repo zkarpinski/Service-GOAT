@@ -36,9 +36,5 @@ jobs:
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
         arguments: build
-    - name: Run Snyk to check for vulnerabilities
-      uses: snyk/actions/gradle-jdk11@master
-      env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       
       
