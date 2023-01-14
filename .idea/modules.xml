@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" />

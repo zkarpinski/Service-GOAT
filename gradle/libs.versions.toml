@@ -2,6 +2,7 @@
 aws = "1.12.311"
 commonsIo = "2.11.0"
 nettyVer = "4.1.0.Final"
+micronaut = "3.7.0"
 
 
 [libraries]
