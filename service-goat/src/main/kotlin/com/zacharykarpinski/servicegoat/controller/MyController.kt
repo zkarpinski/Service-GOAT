@@ -1,4 +1,4 @@
-package com.zacharykarpinski
+package com.zacharykarpinski.servicegoat.controller
 
 import io.micronaut.http.MediaType
 import io.micronaut.http.annotation.Controller

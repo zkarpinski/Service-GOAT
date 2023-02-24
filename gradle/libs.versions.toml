@@ -11,3 +11,5 @@ netty-all = { group = "io.netty", name="netty-all", version.ref="nettyVer" }
 netty-handler = { group = "io.netty", name="netty-handler", version.ref="nettyVer" }
 gson = "com.google.code.gson:gson:2.8.1"
 junit = "junit:junit:4.13"
+testng = "org.testng:testng:7.7.0"
+httpclient = "org.apache.httpcomponents:httpclient:4.5.13"

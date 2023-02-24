@@ -15,7 +15,6 @@ repositories {
 
 dependencies {
     implementation("io.micronaut:micronaut-http-client")
-    implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
     implementation("jakarta.annotation:jakarta.annotation-api")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
@@ -23,6 +22,16 @@ dependencies {
     // ChatGPT dependencies
     implementation("com.theokanning.openai-gpt3-java:client:0.8.1") // 0.9.0 causes issues
     api("com.squareup.retrofit2:retrofit:2.7.2")
+
+    // Consul discovery
+    runtimeOnly "io.micronaut.discovery:micronaut-discovery-client"
+
+    constraints {
+        api("com.squareup.okhttp3:okhttp:4.9.3") {
+            because "Vulnerable transitive dependency from retrofit:2.7.2"
+        }
+    }
+
 
 }
 

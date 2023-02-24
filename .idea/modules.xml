@@ -5,13 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/basic/Service_GOAT.basic.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-kotlin/Service_GOAT.demo-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-vc/Service_GOAT.demo-vc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-service/Service_GOAT.gateway-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-service/Service_GOAT.gateway-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/Service_GOAT.search-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service/com.zacharykarpinski.Service_GOAT.search-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ui-service.iml" filepath="$PROJECT_DIR$/ui-service.iml" />
     </modules>
   </component>
 </project>

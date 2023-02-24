@@ -3,8 +3,9 @@ dependencyResolutionManagement {
     defaultLibrariesExtensionName.set('libs')
 }
 
-
+include 'gateway-service'
 include 'search-service'
 include 'ai-service'
 include 'service-goat'
+include 'ui-service'
 rootProject.name = "Service GOAT"

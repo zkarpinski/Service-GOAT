@@ -1,9 +1,12 @@
+// Uses an old version of Micronaut
+
+
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.6.0"
-    id("org.jetbrains.kotlin.kapt") version "1.6.0"
+    id("org.jetbrains.kotlin.jvm") version "${kotlinVersion}"
+    id("org.jetbrains.kotlin.kapt") version "${kotlinVersion}"
     id("com.github.johnrengelman.shadow") version "7.0.0"
-    id("io.micronaut.application") version "3.7.0"
-    id("org.jetbrains.kotlin.plugin.allopen") version "1.6.0"
+    id("io.micronaut.application") version "1.5.4"
+    id("org.jetbrains.kotlin.plugin.allopen") version "${kotlinVersion}"
 }
 
 version = "0.1"
@@ -23,15 +26,18 @@ micronaut {
 }
 
 dependencies {
-    testAnnotationProcessor "io.micronaut:micronaut-inject-java"
-
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
+    implementation("io.micronaut.data:micronaut-data-jdbc:2.4.7")
+    implementation("javax.persistence:javax.persistence-api:2.2")
+    runtimeOnly("com.h2database:h2")
+
+
     implementation("javax.annotation:javax.annotation-api")
+    annotationProcessor("io.swagger.core.v3:swagger-annotations:2.2.8")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
-    implementation("org.jetbrains.kotlin:kotlin-script-runtime")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
 
@@ -44,12 +50,18 @@ dependencies {
         exclude group: "org.codehaus.groovy", module: "groovy-all"
     }
 
+    // Consul discovery
+    runtimeOnly "io.micronaut.discovery:micronaut-discovery-client:2.2.2" // v2.2.2+ has Consul fixes
+
+    // Tracing
+    runtimeOnly "io.micronaut:micronaut-tracing"
+    runtimeOnly "io.zipkin.brave:brave-instrumentation-http"
 
 }
 
 
 application {
-    mainClass.set("com.zacharykarpinski.ApplicationKt")
+    mainClass.set("com.zacharykarpinski.servicegoat.ApplicationKt")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")

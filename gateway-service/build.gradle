@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation (libs.testng)
+    testImplementation libs.testng
     annotationProcessor("io.micronaut:micronaut-http-validation")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-jackson-databind")
@@ -20,15 +20,9 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
 
-    // Elastic search
-    implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
 
     // Consul discovery
     runtimeOnly "io.micronaut.discovery:micronaut-discovery-client"
-
-    constraints {
-        implementation(libs.httpclient) //Vulnerable transitive dependency from elasticsearch:4.3.0
-    }
 }
 
 
