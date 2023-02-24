@@ -23,6 +23,12 @@ dependencies {
     // ChatGPT dependencies
     implementation("com.theokanning.openai-gpt3-java:client:0.8.1") // 0.9.0 causes issues
     api("com.squareup.retrofit2:retrofit:2.7.2")
+    
+    // Security
+    constraints {
+        api("com.squareup.okhttp3:okhttp:4.9.2")
+        implementation("com.fasterxml.jackson.core:jackson-databind:2.10.5.1")
+    }
 
 }
 
